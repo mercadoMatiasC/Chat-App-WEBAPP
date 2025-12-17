@@ -1,0 +1,164 @@
+*{
+    color: white;
+}
+
+body{
+    background-image: url('../imgs/bg.png');
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+#leave-chat{
+    color: transparent;
+}
+
+/* App head and username */
+
+.container{
+    margin-top: 30px; 
+    background-color: #222;
+    border-radius: 20px 20px 0px 0px;
+    height: 93vh;
+}
+
+#center-title{
+    height: 70px;
+}
+
+#left-username{
+    padding-top: 7px;
+    border-radius: 20px 0px 0px 0px;
+    background-color:#773377;
+}
+
+#right-profile-pic{
+    margin-top: 0px;
+    margin-right: 15px;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+#contact-details{
+    padding-top: 5px;
+    color: white;
+    border-radius: 0px 20px 0px 0px;
+    background-color:#333333;
+}
+
+/* list and content */
+
+#center-content{
+    height: 80%;
+}
+
+#left-list{
+    padding: 0%;
+}
+
+#contact{
+    background-color: #662266;
+    height: 60px;
+    line-height: 340%;
+    padding-left: 7%;
+    border-bottom: #220022 3px solid;
+}
+
+#contact:hover{
+    background-color: #440044;
+}
+
+#chat-submit{
+    margin-right: 7px; 
+    margin-top: 10px; 
+    float:right; 
+    border: 0px; 
+    background-color: violet;
+}
+
+#right-content{
+    overflow-y: scroll;
+    height: 100%;
+    background-color: #171717;
+}
+
+#chatbox{
+    margin-top: 20px; 
+    background-color: #141414; 
+    padding: 5px; 
+    border-radius: 4px;
+}
+
+#profile_pic_list{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+#logout-icon{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+/* MESSAGES */
+
+#mymessage{
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 3%;
+    border-radius: 4px;
+    width: 300px;
+    background-color: purple;
+    margin-bottom: 20px;
+}
+
+#yourmessage{
+    margin-top: 20px;
+    margin-left: 45%;
+    padding: 10px;
+    border-radius: 4px;
+    width: 300px;
+    background-color: rgb(73, 71, 71);
+    margin-bottom: 20px;
+}
+
+#sent-at{
+    color: rgb(197, 180, 180);
+}
+
+/* SEND MESSAGE */
+
+#message-field{
+    font-family:sans-serif;
+    margin-top: 6px;
+    color: rgb(34, 33, 33);
+    width: 90%;
+    height: 45px;
+    border-radius: 50px;
+}
+
+#submit-message{
+    margin-top: -2px;
+    height: 45px; 
+    width: 45px; 
+    background-color: purple; 
+    border: 0px; 
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+#submit-message:active{
+    background-color: black;
+}

@@ -1,0 +1,86 @@
+*{
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../imgs/bg.png') no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.login-box {
+  width: 320px;
+  height: 380px;
+  background: #151515;
+  border-radius: 3px;
+  top: 53%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 60px 30px;
+}
+
+#icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box input {
+  color: black;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="radio"] {
+ width: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-radius: 3px;
+  margin-top: 3px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.upload{
+  width: 20px;
+}
+
+.login-box input[type="submit"] {
+  color: white;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #440044;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="file"] {
+color: white;
+}
+
+.login-box input[type="submit"]:hover {
+  color: white;
+  cursor: pointer;
+  background: #220022;
+}
+
+a{
+  text-decoration: none;
+}
